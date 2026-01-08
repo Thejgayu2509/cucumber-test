@@ -32,7 +32,7 @@ public class Base {
 	public static WebDriver driver = null;
 	public static  JavascriptExecutor js;
 	public static Actions actions;
-
+    //Test Changes
 	// **** 1. Launch Browser ****
 	public WebDriver launchBrowser(String browserName) {
 		if (browserName.equalsIgnoreCase("chrome")) {
